@@ -1,92 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>BlockForge — Minecraft Java Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MacefighterYt</title>
+
 <style>
-:root{--bg:#080c09;--p:#121914;--p2:#18231b;--line:#29382d;--txt:#f3f7f3;--muted:#a3aea6;--g:#5ee477}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0,#234b2c,transparent 35%),var(--bg);color:var(--txt);font-family:Arial,system-ui,sans-serif}
-nav{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:15px 6%;background:#080c09ee;border-bottom:1px solid var(--line)}.logo{font-size:21px;font-weight:900}.logo span{color:var(--g)}nav div a{color:#d5ddd7;text-decoration:none;margin-left:18px;font-size:14px}
-.hero,.section{max-width:1250px;margin:auto;padding-left:6%;padding-right:6%}.hero{padding-top:75px;padding-bottom:55px}.eyebrow,.tag{color:var(--g);font-weight:900}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px}.hero h1{font-size:clamp(42px,7vw,76px);line-height:.98;margin:14px 0}.hero h1 span{color:var(--g)}.hero p{max-width:700px;color:var(--muted);font-size:17px;line-height:1.7}
-.search{display:flex;max-width:760px;margin-top:28px;padding:7px;border:1px solid var(--line);border-radius:14px;background:#101610}.search input{flex:1;background:transparent;border:0;outline:0;color:#fff;padding:13px;font-size:15px}.btn{background:var(--g);border:0;border-radius:10px;padding:12px 18px;font-weight:900;cursor:pointer}
-.section{padding-top:35px;padding-bottom:65px}.head h2{font-size:30px;margin:0}.head p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--p);border:1px solid var(--line);border-radius:16px;padding:19px}.card:hover{border-color:#43824f;transform:translateY(-3px);transition:.2s}.icon{font-size:34px}.card h3{margin:10px 0 7px}.card p{color:var(--muted);line-height:1.55;font-size:14px}.tag{display:inline-block;font-size:11px;background:#17361e;padding:5px 8px;border-radius:999px}.info{display:grid;grid-template-columns:1fr 1fr;gap:16px}.notice{background:#102016;border:1px solid #395d40;border-radius:13px;padding:16px;color:#d1e6d4;line-height:1.6}.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.tab{border:1px solid var(--line);background:var(--p);color:#d5ddd7;padding:9px 13px;border-radius:999px}.tab.active{background:#183a20;color:#aaffb5}.code{background:#090d0a;border:1px solid var(--line);padding:13px;border-radius:10px;font-family:monospace;color:#b9f2c2}.videoGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.video{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.video iframe{width:100%;aspect-ratio:16/9;border:0}.video div{padding:15px}.video small{color:var(--muted)}footer{border-top:1px solid var(--line);padding:30px 6%;text-align:center;color:var(--muted)}footer a{color:var(--g)}
-@media(max-width:850px){.grid,.info,.videoGrid{grid-template-columns:1fr 1fr}nav div{display:none}}@media(max-width:560px){.grid,.info,.videoGrid{grid-template-columns:1fr}.search{flex-direction:column}.btn{width:100%}}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0f0f0f;
+    color:white;
+}
+
+header{
+    background:linear-gradient(90deg,#ff0000,#990000);
+    padding:30px;
+    text-align:center;
+}
+
+header h1{
+    font-size:50px;
+}
+
+header p{
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:white;
+    color:red;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.card{
+    background:#1a1a1a;
+    max-width:700px;
+    margin:20px auto;
+    padding:25px;
+    border-radius:12px;
+    border:2px solid red;
+}
+
+.card h2{
+    color:red;
+    margin-bottom:15px;
+}
+
+.server{
+    font-size:22px;
+    font-weight:bold;
+    color:#ff4444;
+}
+
+footer{
+    background:#111;
+    text-align:center;
+    padding:25px;
+    border-top:2px solid red;
+}
 </style>
 </head>
 <body>
-<nav><a class="logo" href="#top">⛏️ Block<span>Forge</span></a><div><a href="#minecraft">Minecraft</a><a href="#mods">Java Mods</a><a href="#builds">Builds</a><a href="#videos">Videos</a></div></nav>
 
-<section class="hero" id="top">
-<div class="eyebrow">Minecraft Java Edition Hub</div>
-<h1>Everything Minecraft.<br><span>Build • Mod • Explore.</span></h1>
-<p>A fan-made guide for Minecraft Java players: game basics, modding, useful mod categories, building ideas and house tutorials.</p>
-<div class="search"><input id="q" placeholder="Search mods, builds, mobs, commands..." oninput="searchAll()"><button class="btn" onclick="searchAll()">Search</button></div>
-</section>
+<header>
+    <h1>🔴 MACEFIGHTERYT 🔴</h1>
+    <p>PvP • Farms • Builds • Mods</p>
 
-<section class="section" id="minecraft">
-<div class="head"><h2>🎮 Minecraft Java — Quick Guide</h2><p>The essentials for new and returning players.</p></div>
-<div class="info">
-<div class="card"><span class="tag">GAME MODES</span><h3>Survival • Creative • Hardcore</h3><p>Survival focuses on resources, crafting, exploration and combat. Creative gives unlimited resources and flight. Hardcore is a Java survival variant with one life.</p></div>
-<div class="card"><span class="tag">DIMENSIONS</span><h3>Overworld • Nether • End</h3><p>Explore the main world, travel through Nether portals and progress toward the End.</p></div>
-<div class="card"><span class="tag">CORE SYSTEMS</span><h3>Mining • Crafting • Enchanting • Redstone</h3><p>Gather materials, craft gear, improve equipment with enchantments and build machines with redstone.</p></div>
-<div class="card"><span class="tag">COMMANDS</span><h3>Useful Java commands</h3><div class="code">/gamemode creative<br>/time set day<br>/weather clear<br>/tp &lt;player&gt; &lt;target&gt;</div></div>
-</div>
-</section>
-
-<section class="section" id="mods">
-<div class="head"><h2>🧩 Minecraft Java Mods</h2><p>Always check the exact Minecraft version, loader and dependencies before installing.</p></div>
-<div class="notice">⚠️ Compatibility matters. A mod for one Minecraft version or loader may not work on another. Back up important worlds before changing a mod setup.</div>
-<div class="tabs">
-<button class="tab active" onclick="filterMods('all',this)">All</button><button class="tab" onclick="filterMods('performance',this)">Performance</button><button class="tab" onclick="filterMods('building',this)">Building</button><button class="tab" onclick="filterMods('quality',this)">Quality of Life</button><button class="tab" onclick="filterMods('map',this)">Maps & Info</button>
-</div>
-<div class="grid" id="modGrid"></div>
-</section>
-
-<section class="section" id="builds">
-<div class="head"><h2>🏠 Build Ideas</h2><p>Projects for survival and creative worlds.</p></div>
-<div class="grid">
-<div class="card searchable"><div class="icon">🏡</div><span class="tag">HOUSE</span><h3>Modern House</h3><p>Glass, concrete, wood, balcony, garden and garage.</p></div>
-<div class="card searchable"><div class="icon">🛖</div><span class="tag">STARTER</span><h3>Survival Starter House</h3><p>Small footprint with simple materials, storage and bedroom.</p></div>
-<div class="card searchable"><div class="icon">🏰</div><span class="tag">MEDIEVAL</span><h3>Medieval House</h3><p>Spruce, stone, layered roof and decorative supports.</p></div>
-<div class="card searchable"><div class="icon">🏯</div><span class="tag">JAPANESE</span><h3>Japanese Pagoda</h3><p>Layered roofs, dark wood, lanterns and a garden.</p></div>
-<div class="card searchable"><div class="icon">🌾</div><span class="tag">FARM</span><h3>Starter Farm</h3><p>A compact crop area with paths, water and storage.</p></div>
-<div class="card searchable"><div class="icon">🌉</div><span class="tag">DECORATION</span><h3>River Bridge</h3><p>A stone-and-wood bridge to connect your world.</p></div>
-</div>
-</section>
-
-<section class="section" id="videos">
-<div class="head"><h2>🎥 House Building Videos</h2><p>Tutorials are embedded from YouTube; the videos remain hosted by their creators.</p></div>
-<div class="videoGrid">
-<div class="video"><iframe src="https://www.youtube.com/embed/JF-aySCZPdE" title="Minecraft Modern House Tutorial" allowfullscreen></iframe><div><b>Modern House Tutorial</b><br><small>WiederDude</small></div></div>
-<div class="video"><iframe src="https://www.youtube.com/embed/PfeQUEges2g" title="Minecraft Simple Survival House Tutorial" allowfullscreen></iframe><div><b>Simple Survival Starter House</b><br><small>Tanol Games</small></div></div>
-<div class="video"><iframe src="https://www.youtube.com/embed/M51HYkWyUkE" title="Minecraft Medieval House Tutorial" allowfullscreen></iframe><div><b>Medieval House Tutorial</b><br><small>Nanaroid</small></div></div>
-</div>
-</section>
+    <a class="btn"
+    href="https://youtube.com/@macefighter95?si=uLt50Wupy2dA2MIv"
+    target="_blank">
+    SUB TO MACEFIGHTERYT
+    </a>
+</header>
 
 <section class="section">
-<div class="head"><h2>🔧 Java Modding Basics</h2><p>Simple setup guidance.</p></div>
-<div class="info">
-<div class="card"><h3>1. Pick a loader</h3><p>Common Java loaders include Fabric, Forge, NeoForge and Quilt. Use the loader required by the mod.</p></div>
-<div class="card"><h3>2. Match versions</h3><p>Check Minecraft version, loader and dependencies on every mod page.</p></div>
-<div class="card"><h3>3. Mods folder</h3><p>On Windows, Fabric documentation uses:</p><div class="code">%appdata%\.minecraft\mods</div></div>
-<div class="card"><h3>4. Trusted sources</h3><p>Use established project pages instead of random download mirrors.</p><p><a href="https://modrinth.com/" target="_blank">Modrinth ↗</a> • <a href="https://www.curseforge.com/minecraft/mc-mods" target="_blank">CurseForge ↗</a> • <a href="https://fabricmc.net/" target="_blank">Fabric ↗</a></p></div>
+
+<div class="card">
+<h2>⚔️ About Channel</h2>
+<p>
+Minecraft Java & Bedrock Content<br>
+PvP Videos<br>
+Automatic Farms<br>
+Epic Builds<br>
+Java & Bedrock Mods<br>
+Commands & Tutorials
+</p>
 </div>
+
+<div class="card">
+<h2>🎮 Java PvP Server</h2>
+<p class="server">alwto.fun</p>
+</div>
+
+<div class="card">
+<h2>📱 Bedrock PvP Server</h2>
+<p class="server">Bedrock.TalonMC.Net</p>
+<p>Port: 19132</p>
+</div>
+
+<div class="card">
+<h2>🔥 Features</h2>
+<p>
+✅ Minecraft PvP<br>
+✅ Farm Tutorials<br>
+✅ Build Tutorials<br>
+✅ Free Bedrock Content<br>
+✅ Java & Bedrock Support
+</p>
+</div>
+
 </section>
 
-<footer>BlockForge is a fan-made Minecraft information site and is not affiliated with Mojang or Microsoft.<br><br><a href="https://www.minecraft.net/" target="_blank">Official Minecraft</a> • <a href="https://docs.fabricmc.net/players/installing-mods" target="_blank">Fabric Mod Guide</a></footer>
+<footer>
+<h2>🔥 SUB TO MACEFIGHTERYT 🔥</h2>
+<p>Fight Like A Legend, Build Like A Pro!</p>
+</footer>
 
-<script>
-const mods=[
-["Sodium","performance","⚡","Performance-focused rendering optimization. Check supported Minecraft versions."],
-["Iris","performance","✨","Shader support for Java. Check compatible versions and renderer requirements."],
-["Mod Menu","quality","📋","Convenient in-game list for installed Fabric mods and configuration pages."],
-["Litematica","building","📐","Schematic-based building assistance for planning and reproducing structures."],
-["EMI","quality","📚","Recipe and item lookup for quickly finding crafting and usage information."],
-["Xaero's Minimap","map","🗺️","Minimap and navigation utility. Check loader and version support."]
-];
-function renderMods(list=mods){document.getElementById("modGrid").innerHTML=list.map(m=>`<div class="card searchable"><div class="icon">${m[2]}</div><span class="tag">${m[1].toUpperCase()}</span><h3>${m[0]}</h3><p>${m[3]}</p></div>`).join("")}
-function filterMods(type,el){document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));el.classList.add("active");renderMods(type==="all"?mods:mods.filter(m=>m[1]===type))}
-function searchAll(){let q=document.getElementById("q").value.toLowerCase().trim();renderMods(q?mods.filter(m=>m.join(" ").toLowerCase().includes(q)):mods);document.querySelectorAll(".searchable").forEach(c=>c.style.display=!q||c.innerText.toLowerCase().includes(q)?"block":"none")}
-renderMods();
-</script>
-</body></html>
+</body>
+</html>
